@@ -34,7 +34,7 @@ const CreatePage = () => {
   return (
     <Container maxW={"900px"} minH={"100vh"}>
         <VStack spacing={8}>
-            <Heading as={"h1"} size={"24px"} textAlign={"center"}>
+            <Heading as={"h1"} fontSize={"24px"} textAlign={"center"} bgGradient={'linear(to-l,rgb(23, 101, 255),rgb(44, 225, 239))'} bgClip={'text'}>
                 Create New Product
             </Heading>
             
